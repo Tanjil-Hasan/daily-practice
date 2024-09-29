@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fefefe;
+   font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+.logo{
+    width: 13.9375rem;
+    height: 5.8606rem;
+    margin-left: 3.5rem ;
+    margin-top: 3px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.7rem;
+    gap: 1rem;
+    text-decoration: none;
+    
+}
+
+.navbar li,a{
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+    font-weight: 500;
+    
+}
+
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.7rem;
+    gap: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+.login{
+    /* width: 6.125rem;
+    height: 2.125rem; */
+    background: #54B8FF;
+    color: white;
+    padding: 0.5rem 2rem;
+    margin-right: 3.5rem ;
+    
+}
+
+.sign-in{
+    padding: 0.5rem 3rem;
+}
+/* .container{
+    max-width: 1250px;
+} */
+
+
+
+/* Header End */
+
+
+
+/* Hero Start */
+
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Hero-left */
+
+.hero-left{
+    display: flex;
+
+    width: 34.375rem;
+   
+}
+
+
+
+.hero-left-text{
+
+    width: 43.75rem;
+    height: 43.75rem ;
+    margin-top: 8.5rem;
+
+    margin-left: 6rem ;
+
+}
+
+
+.hero-left-title{
+
+
+}
+
+.hero-headline{
+    font-size: 3.2rem;
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.hero-para{
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+.hero-left-images{
+    position: relative;
+    
+}
+
+.hero-left-side-top{
+    width: 1.5269rem;
+    height: 7.5681rem;
+    position: absolute;
+
+    top: 4%;
+}
+
+.hero-left-side-bottom{
+    position: absolute;
+    top: 50%;
+    left: 0;
+ 
+    width: 5.625rem;
+    height: 6.625rem;
+}
+
+
+.hero-button,i{
+    background: #54B8FF;
+    border-style: none;
+
+}
+
+.hero-button{
+    width: 9rem;
+    height: 2.5rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    color: #ffffff;
+    /* margin-left: 1rem; */
+}
+
+
+/* Hero-Right */
+
+
+.hero-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-vector-right-side-top{
+    width: 2%;
+    height: 15%;
+    position: absolute;
+    top: 35%;
+    right: 0;
+
+}
+
+.hero-vector-right-side-bottom{
+    position: absolute;
+    top: 86.7%;
+    right: 0%;
+    width: 5%;
+    height: 18%;
+}
+
+
+.hero-main-vector img{
+    width: 700px;
+    margin-top: 50px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.left-top-dot-vector{
+
+    /* width: 5rem;
+   height: 4rem; */
+
+   position: absolute;
+   left: 40%;
+   top: 30%;
+}
+
+
+
+
+.hero-right-top-images img {
+
+    width: 70px;
+    height: 60px;
+
+}
+
+.hero-right-top-images {
+    position: relative;
+
+    
+}
+
+.hero-img-one-vectorSide{
+    position: absolute;
+ 
+    top: 230px;
+    left: 15%;
+}
+
+
+.hero-img-two-vectorSide {
+
+    position: absolute;
+ 
+    top: 110px;
+    left: 23%;
+
+}
+
+
+.hero-img-three-vectorSide {
+
+    position: absolute;
+ 
+    top: 40px;
+    left: 45%;
+
+}
+
+
+.hero-img-four-vectorSide {
+
+    position: absolute;
+ 
+    top: 90px;
+    left: 65%;
+}
+
+
+.hero-img-five-vectorSide img{
+
+
+    width: 70px;
+    height: 60px;
+}
+
+
+
+
+ .hero-img-five-vectorSide {
+    position: absolute;
+    top: 55%;
+    left: 82%;
+
+    right: 60%;
+
+} 
