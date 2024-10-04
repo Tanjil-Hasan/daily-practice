@@ -1,0 +1,1066 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+    font-family: "Frank Ruhl Libre", sans-serif;
+    
+}
+
+
+img {
+    width: 100px;
+}
+
+
+/* Header Section Start */
+
+
+.navItem, .hire-me{
+    display: none;
+}
+
+.nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 18px 16px;
+    background: #FFFFFF;
+    color: white;
+}
+
+.logo a {
+    color: #0DB75F;
+    font-size: 30px;
+    font-family:  "Aladin", system-ui;
+    font-weight:900;
+}
+
+.hamburger{
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+    
+}
+
+
+/* Header Section End */
+
+/* Hero Section Start */
+
+.hero{
+    min-height: 80%;
+    background-color: #FFFFFF;
+}
+
+
+.hero-left{
+
+    position: relative;
+
+}
+
+.hero-left__bg-one {
+    background-color: #0DB75F;
+    border: 1px solid #0DB75F;
+    width: 70%;
+    height: 222px;
+    position: absolute;
+    top: 90px;
+    left: 62px;
+}
+
+.hero-left__bg-two{
+    border: 2px solid #0E0E0E;
+    width: 67%;
+    height: 225px;
+    position: absolute;
+    left: 30px;
+    top: 110px;
+
+}
+
+.hero-left> img {
+    /* width: 80%; */
+    /* min-width: none; */
+    min-width: 312px;
+    max-width: 312px; /* Set a fixed width to the image */
+    height: auto;   
+    margin-left: 60px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.hero-right{
+    text-align: center;
+    font-family: "Frank Ruhl Libre", system-ui;
+}
+
+
+.hero-subtitle{
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.hero-subtitle> span {
+    color: #0DB75F;
+
+}
+
+.hero-title {
+    font-size: 54px;
+}
+
+
+.hero-title> .developer{
+    position: relative;
+   
+}
+
+.hero-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Download-Button{
+    background-color: #0DB75F;
+    padding: 15px 30px;
+    border-style: none ;
+    color: #DFF5EA;
+    font-size: 18px;
+    font-family: "Frank Ruhl Libre", system-ui;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+/* Animation For MERN Start */
+
+svg {
+	font-family: "Frank Ruhl Libre", sans-serif;
+	width: 100%; height: 40px;
+}
+svg text {
+	animation: stroke 4s infinite alternate;
+	stroke-width: 2;
+	stroke: #0DB75F;
+	font-size: 55px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(13,183,95,0); stroke: rgba(13,183,95,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(13,183,95,0); stroke: rgba(13,183,95,1); }
+	80%  {fill: rgba(13,183,95,0); stroke: rgba(13,183,95,1); stroke-width: 3; }
+	100% {
+		fill: rgba(13,183,95,1); stroke: rgba(13,183,95,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+
+
+/* Animation For MERN End */
+
+/* Hero Section End */
+
+/* personal Detail section Start  */
+
+
+.personal-detail{
+    margin: 80px 16px 60px 16px;
+    font-family: "Frank Ruhl Libre", sans-serif;
+   
+}
+
+
+.personal-detail__left-title{
+    background-image: linear-gradient(120deg, rgba(13,183,95,1) 0, rgba(13,183,95,1) 100%);
+    background-repeat: no-repeat;
+    background-size: 178px 4px;
+    background-position: 0 80%;
+    position: relative;
+    font-size: 24px;
+}
+
+.personal-detail__left-para{
+    font-size: 18px;
+    margin-top: 14px;
+}
+
+.personal-detail__left-link-logo{
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 10px;
+   
+}
+
+
+.personal-detail__left-link-logo i {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    background: rgb(0, 0, 0);
+}
+
+.personal-detail__right {
+
+
+    margin-top: 10px;
+}
+
+
+.personal-detail-title{
+    width: 168px;
+    display: flex;
+    align-items:start;
+    font-weight: 500;
+    display: block;
+
+    word-wrap: break-word;
+}
+
+
+
+
+
+.personal-detail-info{
+    padding-left: 190px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    align-items:start;
+    position: relative;
+    top: -20px;
+    
+}
+
+
+/* personal Detail section End  */
+
+/*   Education and Experience Header Section Start */
+
+.edu-ex-head{
+    text-align: center;
+   font-family: "Frank Ruhl Libre", sans-serif;
+   
+}
+
+
+
+
+.edu-ex-head span{
+    color: black ;
+    background-color: #0DB75F;
+    padding: 8px;
+   font-weight: 900;
+   border-radius: 3px;
+   text-transform: uppercase;
+
+}
+
+.edu-ex-head__title{
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.edu-ex-head__para{
+    margin: 0 16px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+/*   Education and Experience Header Section End */
+
+/* Education Section Start */
+
+.education{
+    margin: 60px 16px;
+    font-family: "Frank Ruhl Libre", sans-serif;
+
+}
+
+
+.education-headline{
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.edu-line{
+
+
+    
+    width: 110px;
+    margin: 1px 0 32px 0;
+    background-color: lightsteelblue;
+    height: 4px;
+
+}
+
+.edu-inner-line{
+  
+   
+    height: 4px;
+    width: 70px;
+    background-color: #0DB75F;
+}
+
+
+.education-left-img>img{
+    width: 100%;
+}
+
+
+
+.edu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     margin-left: 32px;
+}
+
+
+.education-year{
+
+    background-color: #2C2C2C;
+    color: #e5e5e5;
+    margin-right: 130px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.education-title{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+
+
+.education-institution{
+    display: inline-block;
+    font-weight: 600;
+     font-size: 13.92px;
+     color: #808080;
+     margin: 10px 0;
+}
+
+
+
+/* Education Section End */
+
+
+/* Expreience Section Start */
+
+.experience{
+
+    margin: 60px 16px;
+    font-family: "Frank Ruhl Libre", sans-serif;
+
+}
+
+
+.experience-left-img>img{
+    width: 100%;
+    background-color: white;
+}
+
+
+.experience-headline{
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ex-line{
+
+
+    
+    width: 120px;
+    margin: 3px 0 32px 0;
+    background-color: lightsteelblue;
+    height: 4px;
+
+}
+
+.ex-inner-line{
+  
+   
+    height: 4px;
+    width: 70px;
+    background-color: #0DB75F;
+}
+
+
+.experience-right{
+    margin-left: 32px ;
+}
+
+.experience-years{
+
+    background-color: #2C2C2C;
+    color: #e5e5e5;
+    margin-right: 130px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+   
+    
+}
+
+.company{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.com-name{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.position{
+    font-weight: 600;
+    margin-bottom: 15px ;
+    color: #808080;
+}
+
+/* Expreience Section End */
+
+
+/* Skills Section Start  */
+
+
+.skills-headline{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #DFF5EA;
+    background-color: #0DB75F;
+    padding: 5px;
+    font-weight: 700;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin: 100px 130px 10px 130px;
+   
+}
+
+
+
+.skills-grid{
+    margin: 60px 10px 0 10px;
+   
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 90px;
+}
+
+
+
+.skill{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    /* gap: 50px; */
+    position: relative;
+}
+
+
+.skill>img{
+
+    width: 80px;
+    height: 70px;
+}
+
+.skill-name{
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   
+   margin-top: 16px;
+   margin-bottom: 16px;
+   
+   font-weight: 500;
+   font-size: 18px;
+}
+
+
+
+.progress-line{
+    display: inline-block;
+    background-color: lightsteelblue;
+    height: 3px;
+
+    width: 80px;
+
+    
+}
+
+.progress-line-innner{
+
+
+    background-color: #0DB75F;
+    height: 3px;
+    width: 50px;
+}
+
+
+.html .progress-line-innner{
+    width: 70px;
+}
+
+
+.tailwind .progress-line-innner{
+    width: 60px;
+}
+
+.express .progress-line-innner{
+    width: 42px;
+}
+
+.react .progress-line-innner{
+    width: 65px;
+}
+
+.skill-percent{
+   
+
+    position: absolute;
+    top: 117.5px;
+    left: 88px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+/* Skills Section End  */
+
+/* Projects Section Start */
+
+
+.project{
+    margin-top: 90px;
+}
+
+
+
+.project-head {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px 50px 40px;
+
+}
+
+
+.project-head> span{
+    display: inline-block;
+    margin-bottom: 12px;
+
+    color: #DFF5EA;
+    background-color: #0DB75F;
+    padding: 5px 10px 5px 10px;
+    font-weight: 900;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+
+.project-head-title{
+
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 10px ;
+}
+
+.project-head-para{
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 7px 0 7px;
+}
+
+
+.project-grid{
+    margin: 30px 70px ;
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: #dee2e6; */
+}
+
+
+.projects img {
+
+    min-width: 300px;
+    min-height: 140px;
+    max-width: 300px;
+    max-height: 140px;
+
+    margin: 0 0 20px 0 ;
+
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+   
+
+}
+
+.projects{
+    background-color: #e9ecef;
+    margin: 0 0 0 0 ;
+    padding-bottom: 16px;
+    border-radius: 16px;
+}
+
+
+.projects-title{
+    margin: 0 0 16px 20px;
+
+    color: #212529;
+    font-weight: 600 ;
+    font-size: 16px;
+   
+}
+
+.projects-para{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font: 13px;
+}
+
+.projects a{
+    margin-top: 20px;
+    margin-left: 20px;
+    font: 10px;
+    color: #777;
+    ;
+}
+
+
+.project-button {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    margin-bottom: 30px ;
+
+    background-color: #0DB75F;
+    padding: 12px 10px;
+    border-style: none;
+    color: #DFF5EA;
+    font-size: 18px;
+    font-family: "Frank Ruhl Libre", system-ui;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Projects Section End */
+
+
+/* Latest blog and  insights Section Start */
+
+
+
+.blog-head div {
+
+
+    margin-bottom: 12px;
+    color: #DFF5EA;
+    background-color: #0DB75F;
+    padding: 5px 10px 5px 10px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 3px;
+    text-transform: uppercase;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin: 100px 150px 12px 150px ;
+    
+    
+}
+
+.blog-head-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+
+.blog-grid{
+
+    margin: 30px 70px ;
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-image {
+    min-width: 300px;
+    min-height: 185px;
+    max-width: 300px;
+    max-height: 140px;
+
+    margin: 0 0 20px 0 ;
+
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+   
+
+}
+
+.blog-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.blog-person-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+
+
+}
+
+
+.blogs{
+    margin-bottom: 40px;
+}
+
+.blog-bottom{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+    
+}
+
+.blog-bottom div{
+    
+    padding-left: 2px;
+
+    font-weight: 400;
+}
+
+.date{
+    font-size: 12px;
+    font-weight: 500;
+    color: #777;
+}
+
+.blog-bottom a {
+    padding-left: 55px;
+
+    color: #777;
+}
+/* Latest blog and  insights Section End */
+
+
+/* Contact Section Start  */
+
+
+
+
+.contact-section-head{
+    margin: 80px 16px 10px 16px  ;
+}
+
+.contact-section-head__title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+    color: #0DB75F;
+}
+
+.contact-section-head__para{
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+
+.contact-form-left{
+    margin-top: 20px;
+    margin-left: 80px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.contact-form-left-number i{
+    position: absolute;
+    top: 30px;
+    left: -26px;
+   color: #0DB75F;
+    
+}
+
+
+
+.phone-number{
+
+
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    
+}
+
+.contact-form-left-email i{
+
+    position: absolute;
+    top: 87px;
+    left: -27px;
+    color: #0DB75F;
+}
+
+.contact-email{
+
+    font-size: 18px;
+    font-weight: 500;
+
+    margin-left: 20px;
+   
+}
+.contact-time{
+    font-size: 15px;
+    font-weight: 400;
+
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.contact-form-left i {
+    font-size: 22px;
+}
+
+
+/* contact form right */
+
+
+
+.contact-form-right{
+    
+    margin-left: 50px;
+}
+
+
+label {
+    display: inline-block;
+   margin-bottom: 8px;
+   margin-top: 16px;
+   font-size: 16px;
+   font-weight: 500;
+}
+
+
+input{
+  
+
+    width: 280px;
+    height: 45px;
+}
+
+
+
+input::placeholder{
+    text-align: start;
+    padding-left: 16px;
+}
+
+
+textarea{
+    width: 280px;
+    height: 120px;
+    padding: 16px ;
+}
+
+.input-button{
+    width: 130px;
+    height: 40px;
+   margin-top: 16px ;
+   background-color: #0DB75F;
+   color: white;
+   border-style: none;
+   border-radius: 5px;
+   font-size: 16px;
+
+   font-weight: 500;
+   cursor: pointer;
+}
+
+input:focus{
+    
+    outline-color: #0DB75F;
+}
+
+textarea:focus{
+    
+    outline-color: #0DB75F;
+}
+
+/* Contact Section End  */
+
+
+/* Footer Section Start */
+
+.footer-left {
+    margin-left: 16px;
+}
+.footer-logo{
+    color: #0DB75F;
+    font-size: 30px;
+    font-family: "Aladin", system-ui;
+    font-weight: 900;
+
+    margin-top: 120px;
+   margin-bottom: 20px;
+}
+
+.footer-left-para{
+
+
+   
+    color: #00000093;
+    font-weight: 500;
+}
+
+
+
+.footer-left-logo i {
+   
+    font-size: 20px;
+    
+    margin-top: 16px;
+    
+    padding-right: 10px;
+}
+
+
+.footer-right {
+    border-top: 1px solid lightslategray ;
+
+    margin: 20px 16px 16px 16px;
+
+    display: grid;
+    grid-template-columns: auto auto;
+
+    grid-template-rows: auto auto;
+
+    align-items: center;
+    justify-content: center;
+
+    column-gap: 80px
+    ;
+}
+
+
+.footer-company{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    color: #3d3d3e;
+    font-weight: 500;
+}
+
+.footer-information{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    color: #3d3d3e;
+    font-weight: 500;
+}
+
+.footer-moreInfo{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2;
+    text-align: center;
+
+    line-height: 2;
+    color: #3d3d3e;
+
+    font-weight: 500;
+}
+
+
+.footer-comapany-title, .footer-information-title,  .footer-moreInfo-title{
+
+    color: #0DB75F;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+.footer-bottom{
+    border-top: 1px solid lightslategray ;
+   
+}
+
+.footer-bottom-left{
+    margin-top: 14px;
+    margin-left: 18px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #00000093;
+}
+
+.footer-bottom-right{
+    margin-top: 10px;
+    margin-left: 16px;
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+
+
+/* Footer Section end */
